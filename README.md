@@ -10,6 +10,8 @@
 # sudo nano /etc/nginx/sites-available/default
 # sudo nano ./.ssh/authorized_keys
 # ssh kirillzhakin@130.193.55.178
+# sudo nano ./.ssh/config
+# git clone git@github.com:kirillzhakin/react-mesto-api-full.git
 
 
 
