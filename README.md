@@ -3,10 +3,14 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облак
 
+Ссылка на сайт:
+
+
 # Команды
 # sudo nano /etc/nginx/sites-available/default
 # sudo nano ./.ssh/authorized_keys
 # ssh kirillzhakin@130.193.55.178
+
 
 
 
