@@ -16,7 +16,7 @@ git pull origin main
 pm2 restart app 
 
 git add -A
-git commit -m "комментарий к коммиту"
+git commit -m "ПР15"
 git push -u origin main
 
 
