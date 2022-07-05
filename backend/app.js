@@ -4,6 +4,10 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const { errors } = require('celebrate');
 
+require('dotenv').config();
+
+const { PORT } = process.env;
+
 const userRouter = require('./routes/users');
 const cardRouter = require('./routes/cards');
 const authRouter = require('./routes/auth');
@@ -13,7 +17,6 @@ const NotFoundError = require('./errors/NotFoundError');
 const errorHandler = require('./errors/errorHandler');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
-const PORT = 3000;
 const app = express();
 
 app.use(bodyParser.json());
