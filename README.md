@@ -15,6 +15,10 @@ sudo systemctl reload nginx
 git pull origin main 
 pm2 restart app 
 
+git add -A
+git commit -m "комментарий к коммиту"
+git push -u origin main
+
 
 
 

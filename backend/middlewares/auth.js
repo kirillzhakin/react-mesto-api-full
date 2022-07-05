@@ -15,7 +15,7 @@ const authorization = (req, _res, next) => {
   let payload;
 
   try {
-    payload = jwt.verify(token, NODE_ENV === 'production' ? JWT_TOKEN : 'dev-secret');
+    payload = jwt.verify(token, NODE_ENV === 'production' ? JWT_TOKEN : 'super-strong-secret');
   } catch (err) {
     return handleAuthError(next);
   }
