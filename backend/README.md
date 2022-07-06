@@ -34,4 +34,4 @@
 ## Ссылка на репозиторий
 https://github.com/kirillzhakin/express-mesto-gha.git
 
-/home/kirillzhakin/mesto-frontend 
+

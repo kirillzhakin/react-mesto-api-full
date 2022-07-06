@@ -21,6 +21,7 @@ cd react-mesto-api-full
 git add -A
 git commit -m "ПР15"
 git push -u origin main
+scp -r ./express-mesto-gha/* kirillzhakin@130.193.55.178:/home/kirillzhakin/react-mesto-api-full/backend
 
 
 
