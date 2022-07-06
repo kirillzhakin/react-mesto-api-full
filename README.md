@@ -15,6 +15,7 @@ sudo systemctl reload nginx
 git pull origin main 
 pm2 restart app 
 
+cd react-mesto-api-full
 git add -A
 git commit -m "ПР15"
 git push -u origin main
