@@ -1,3 +1,4 @@
+/* eslint-disable import/order */
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -12,7 +13,9 @@ const userRouter = require('./routes/users');
 const cardRouter = require('./routes/cards');
 const authRouter = require('./routes/auth');
 const auth = require('./middlewares/auth');
-const cors = require('./middlewares/cors');
+
+const cors = require('cors');
+
 const NotFoundError = require('./errors/NotFoundError');
 const errorHandler = require('./errors/errorHandler');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
@@ -21,7 +24,7 @@ const app = express();
 
 app.use(bodyParser.json());
 app.use(cookieParser());
-app.use(cors);
+app.use(cors());
 
 mongoose.connect('mongodb://0.0.0.0:27017/mestodb')
   .then(() => {
