@@ -26,4 +26,5 @@ scp -r ./express-mesto-gha/* kirillzhakin@130.193.55.178:/home/kirillzhakin/reac
 
 1. Бэкэнд проверил
 2. Фронтенд проверил 
+3. Снова
 

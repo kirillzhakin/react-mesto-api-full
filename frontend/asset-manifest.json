@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e8e93ea.css",
+    "main.js": "/static/js/main.49f660f7.js",
+    "static/js/787.5530211c.chunk.js": "/static/js/787.5530211c.chunk.js",
+    "static/media/avatar-image-cousteau.jpg": "/static/media/avatar-image-cousteau.d2d71ce9a2bfb9faff15.jpg",
+    "static/media/header-mesto-russia.svg": "/static/media/header-mesto-russia.e1792cd1bf55c68d1538deb5b248d425.svg",
+    "static/media/element-heart.svg": "/static/media/element-heart.87ed371465c7a6a1cd01.svg",
+    "index.html": "/index.html",
+    "static/media/Trash.svg": "/static/media/Trash.cbc09a894bdd4c956365.svg",
+    "static/media/Union_2.svg": "/static/media/Union_2.df8eddf661ff88f2d0efd3d570d14309.svg",
+    "static/media/Union_1.svg": "/static/media/Union_1.1b6082f862eac35e2514460237d96ecc.svg",
+    "static/media/element-heart-active.svg": "/static/media/element-heart-active.fe17a515669479b1e649.svg",
+    "static/media/profile-pen.svg": "/static/media/profile-pen.8667ac4a523e8fc42e59.svg",
+    "static/media/close-icon.svg": "/static/media/close-icon.2ceb783afbab75916ddc.svg",
+    "static/media/profile-plus.svg": "/static/media/profile-plus.d86bb2edc2f6eadb96b7.svg",
+    "main.3e8e93ea.css.map": "/static/css/main.3e8e93ea.css.map",
+    "main.49f660f7.js.map": "/static/js/main.49f660f7.js.map",
+    "787.5530211c.chunk.js.map": "/static/js/787.5530211c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e8e93ea.css",
+    "static/js/main.49f660f7.js"
+  ]
+}
