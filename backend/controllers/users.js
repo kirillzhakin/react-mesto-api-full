@@ -6,14 +6,18 @@ const ConflictError = require('../errors/ConflictError');
 const ValidationError = require('../errors/ValidationError');
 const CastError = require('../errors/CastError');
 
-const JWT_TOKEN = 'super-strong-secret';
+const { NODE_ENV, JWT_TOKEN } = process.env;
 
 // POST /signin - авторизация пользователя
 const login = (req, res, next) => {
   const { email, password } = req.body;
   return User.findUserByCredentials(email, password)
     .then((user) => {
-      const token = jwt.sign({ _id: user._id }, JWT_TOKEN, { expiresIn: '7d' });
+      const token = jwt.sign(
+        { _id: user._id },
+        NODE_ENV === 'production' ? JWT_TOKEN : 'dev-secret',
+        { expiresIn: '7d' },
+      );
       res.cookie('jwt', token, { maxAge: 3600000, httpOnly: true }).send({ token, message: 'Авторизация прошла успешно' });
     })
     .catch((err) => {
