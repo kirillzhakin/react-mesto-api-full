@@ -18,7 +18,7 @@ const login = (req, res, next) => {
         NODE_ENV === 'production' ? JWT_TOKEN : 'dev-secret',
         { expiresIn: '7d' },
       );
-      res.send({ token, message: 'Авторизация прошла успешно' });
+      res.send({ token });
     })
     .catch((err) => {
       if (err.name === 'CastError') {
