@@ -44,7 +44,7 @@ const deleteCard = (req, res, next) => {
       if (req.user._id === card.owner.toString()) {
         return removeCard();
       }
-      return next(new ForbiddenError('Попытка удалить чужую арточку'));
+      return next(new ForbiddenError('Попытка удалить чужую карточку'));
     })
     .catch((err) => {
       if (err.name === 'CastError') {
