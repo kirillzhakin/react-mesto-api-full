@@ -8,10 +8,11 @@ const handleAuthError = (next) => {
 };
 
 const authorization = (req, _res, next) => {
-  const token = req.cookies.jwt;
-  if (!token) {
+  const { auth } = req.headers;
+  if (!auth) {
     return handleAuthError(next);
   }
+  const token = authorization.replace('Bearer ', '');
   let payload;
 
   try {

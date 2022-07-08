@@ -8,7 +8,7 @@ IP-адрес сервера: 130.193.55.178
 
 # Команды
 ssh kirillzhakin@130.193.55.178
-sudo nano /etc/nginx/sites-available/defaultc
+sudo nano /etc/nginx/sites-available/default
 sudo nano ./.ssh/authorized_keys
 sudo nano ./.ssh/config
 git clone git@github.com:kirillzhakin/react-mesto-api-full.git
