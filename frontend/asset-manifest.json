@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.68686abc.css",
-    "main.js": "./static/js/main.d17a495a.js",
+    "main.js": "./static/js/main.43e1bf0e.js",
     "static/js/787.5530211c.chunk.js": "./static/js/787.5530211c.chunk.js",
     "static/media/avatar-image-cousteau.jpg": "./static/media/avatar-image-cousteau.d2d71ce9a2bfb9faff15.jpg",
     "static/media/header-mesto-russia.svg": "./static/media/header-mesto-russia.e1792cd1bf55c68d1538deb5b248d425.svg",
@@ -15,11 +15,11 @@
     "static/media/close-icon.svg": "./static/media/close-icon.2ceb783afbab75916ddc.svg",
     "static/media/profile-plus.svg": "./static/media/profile-plus.d86bb2edc2f6eadb96b7.svg",
     "main.68686abc.css.map": "./static/css/main.68686abc.css.map",
-    "main.d17a495a.js.map": "./static/js/main.d17a495a.js.map",
+    "main.43e1bf0e.js.map": "./static/js/main.43e1bf0e.js.map",
     "787.5530211c.chunk.js.map": "./static/js/787.5530211c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.68686abc.css",
-    "static/js/main.d17a495a.js"
+    "static/js/main.43e1bf0e.js"
   ]
 }

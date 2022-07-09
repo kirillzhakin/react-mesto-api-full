@@ -7,9 +7,9 @@ const handleAuthError = (next) => {
   next(new ReqAuthError('Необходима авторизация'));
 };
 
-const authorization = (req, _res, next) => {
-  const { auth } = req.headers;
-  if (!auth) {
+const auth = (req, _res, next) => {
+  const { authorization } = req.headers;
+  if (!authorization || !authorization.startsWith('Bearer ')) {
     return handleAuthError(next);
   }
   const token = authorization.replace('Bearer ', '');
@@ -24,4 +24,4 @@ const authorization = (req, _res, next) => {
   return next();
 };
 
-module.exports = authorization;
+module.exports = auth;
