@@ -130,8 +130,8 @@ const updateAvatarProfile = (req, res, next) => {
 
 // GET /users/me - возвращает информацию о текущем пользователе
 const getMe = (req, res, next) => {
-  const { userId } = req.user._id;
-  User.find({ userId })
+  const { _id } = req.user;
+  User.find({ _id })
     .then((user) => {
       if (!user) {
         next(new NotFoundError('Пользователь не найден'));
