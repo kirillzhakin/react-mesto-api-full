@@ -1,0 +1,5 @@
+.popup__container-infotooltip {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}

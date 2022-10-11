@@ -1,0 +1,10 @@
+.popup__form-route {
+  display: flex;
+  flex-direction: column;
+  width: 358px;
+  margin: 60px auto auto auto;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+  background-color: #000000;
+}

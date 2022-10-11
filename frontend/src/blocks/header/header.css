@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 auto;
+  max-width: 880px;
+  margin: 45px auto 0 auto;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .header {
+    flex-direction: column;
+    width: 100%;
+    margin: 28px auto 0 auto;
+  }
+}
