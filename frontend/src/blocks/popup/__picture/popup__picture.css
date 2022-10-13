@@ -1,6 +1,0 @@
-.popup__picture {
-  max-height: 540px;
-  margin: 0;
-  object-fit: cover;
-  transition: opacity, 0s, ease-out, 0.5s;
-}
