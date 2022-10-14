@@ -19,7 +19,7 @@
 
 Репозиторий (Full frontend): [GitHub](https://github.com/kirillzhakin/react-mesto-auth)
 
-Репозиторий (backend):[GitHub]( https://github.com/kirillzhakin/react-mesto-api-full/backend)
+Репозиторий (backend):[GitHub]( https://github.com/kirillzhakin/react-mesto-api-full)
 
 Макет: [Figma](https://www.figma.com/file/5H3gsn5lIGPwzBPby9jAOo/JavaScript.-Sprint-12?node-id=0%3A1)
 
@@ -30,7 +30,7 @@
 
 Если вы хотите запустить локальную копию приложения, следуйте инструкции:
 
-1. Cоздайте копию репозитория и клонируйте репозиторий https://github.com/kirillzhakin/react-mesto-api-full/backend
+1. Cоздайте копию репозитория и клонируйте репозиторий https://github.com/kirillzhakin/react-mesto-api-full
 2. Установите зависимости npm
 
 ```sh
