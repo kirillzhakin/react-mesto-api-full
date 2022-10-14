@@ -2,7 +2,7 @@
 
 ### Описание
 
-Репозиторий для приложения проекта `Mesto`, включающий фронтенд и бэкенд части приложения со следующими возможностями: авторизации и регистрации пользователей, операции с карточками и пользователями. Бэкенд расположен в директории `backend/`, фронтенд - в `frontend/`.
+Репозиторий содержит API проекта `Mesto`, включающий фронтенд (сборка build) и бэкенд части приложения со следующими возможностями: авторизации и регистрации пользователей, операции с карточками и пользователями. Бэкенд расположен в директории `backend/`, фронтенд - в `frontend/`.
 
 ### Технологии
 ![JavaScript](https://img.shields.io/badge/JavaScript-172F45?style=for-the-badge&logo=JavaScript)
@@ -17,10 +17,32 @@
 
 ## Ссылки
 
-Репозиторий: [GitHub](https://github.com/kirillzhakin/react-mesto-api-full.git)
+Репозиторий (Full frontend): [GitHub](https://github.com/kirillzhakin/react-mesto-auth)
+
+Репозиторий (backend):[GitHub]( https://github.com/kirillzhakin/react-mesto-api-full/backend)
 
 Макет: [Figma](https://www.figma.com/file/5H3gsn5lIGPwzBPby9jAOo/JavaScript.-Sprint-12?node-id=0%3A1)
 
-Ссылка на сайт: http://kirillzhakin.mesto.nomoredomains.xyz
-
 Ссылка на сайт: https://kirillzhakin.mesto.nomoredomains.xyz
+
+
+### Инструкция по запуску backend (Быстрый старт)
+
+Если вы хотите запустить локальную копию приложения, следуйте инструкции:
+
+1. Cоздайте копию репозитория и клонируйте репозиторий https://github.com/kirillzhakin/react-mesto-api-full/backend
+2. Установите зависимости npm
+
+```sh
+npm install
+```
+
+3. Запустите локальный сервер, в режиме разработки
+
+```sh
+npm run dev
+```
+ или в обычном режиме
+```sh
+npm run start
+```
