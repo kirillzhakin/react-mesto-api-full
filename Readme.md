@@ -23,7 +23,7 @@
 
 Макет: [Figma](https://www.figma.com/file/5H3gsn5lIGPwzBPby9jAOo/JavaScript.-Sprint-12?node-id=0%3A1)
 
-Ссылка на сайт: https://kirillzhakin.mesto.nomoredomains.xyz
+Ссылка на сайт: 
 
 
 ### Инструкция по запуску backend (Быстрый старт)

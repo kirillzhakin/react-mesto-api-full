@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const { errors } = require('celebrate');
 
-const { PORT } = process.env;
+const { PORT, DATA_MOVIES_PRODUCTION } = process.env;
 
 const userRouter = require('./routes/users');
 const cardRouter = require('./routes/cards');
@@ -24,7 +24,7 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(cors);
 
-mongoose.connect('mongodb://0.0.0.0:27017/mestodb')
+mongoose.connect(DATA_MOVIES_PRODUCTION)
   .then(() => {
     console.log('Подключен к базе данных');
   });
