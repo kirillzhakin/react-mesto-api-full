@@ -17,13 +17,18 @@
 
 ## Ссылки
 
+Ссылка на сайт: https://react-mesto-auth-theta-gilt.vercel.app
+
 Репозиторий (Full frontend): [GitHub](https://github.com/kirillzhakin/react-mesto-auth)
 
 Репозиторий (backend):[GitHub]( https://github.com/kirillzhakin/react-mesto-api-full)
 
 Макет: [Figma](https://www.figma.com/file/5H3gsn5lIGPwzBPby9jAOo/JavaScript.-Sprint-12?node-id=0%3A1)
 
-Ссылка на сайт: 
+
+👉 Демо API для тестирования доступно по адресу - [https://react-mesto-api-full-lilac.vercel.app](https://react-mesto-api-full-lilac.vercel.app)
+
+❗️❗️❗️ Для работы с этим API есть frontend проект - [react-mesto-auth](https://github.com/kirillzhakin/react-mesto-auth)
 
 
 ### Инструкция по запуску backend (Быстрый старт)

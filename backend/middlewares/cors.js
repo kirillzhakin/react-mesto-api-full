@@ -1,6 +1,5 @@
 const allowedCors = [
-  'http://kirillzhakin.mesto.nomoredomains.xyz',
-  'https://kirillzhakin.mesto.nomoredomains.xyz',
+  'https://react-mesto-auth-theta-gilt.vercel.app',
   'localhost:3000',
 ];
 
